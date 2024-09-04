@@ -12,8 +12,6 @@ class LoginPage extends StatelessWidget {
   final TextEditingController passwordControler = TextEditingController();
 
   
-
-
   LoginPage({super.key});
   
 
