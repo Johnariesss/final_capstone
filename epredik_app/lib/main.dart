@@ -1,7 +1,5 @@
+
 import 'package:epredik_app/Splash/SplashScreen.dart';
-import 'package:epredik_app/User_Page/Home/Home_page.dart';
-import 'package:epredik_app/User_Page/Nav/nav.dart';
-import 'package:epredik_app/cute.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +15,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: NavUser(),   
+      home: SplashScreen(),   
     );
   }
 }
